@@ -36,4 +36,4 @@ if(b.hasAttribute('data-tab'))open(b);
 if(b.hasAttribute('data-show')){var t=document.getElementById(b.getAttribute('data-show'));if(t)t.hidden=!t.hidden}
 if(b.hasAttribute('data-run')){var next=steps.filter(function(s){return s.hidden})[0];if(next){next.hidden=false;next.scrollIntoView({behavior:'smooth',block:'nearest'})}if(!steps.some(function(s){return s.hidden})){b.disabled=true}}
 if(b.hasAttribute('data-reset')){steps.forEach(function(s){s.hidden=true});document.querySelectorAll('[data-run]').forEach(function(r){r.disabled=false})}
-})})();</script></body></html>
+})})();</script></body></html><!-- r -->
